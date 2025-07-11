@@ -1,5 +1,5 @@
 ---
-title: "WebRTC Peer-to-Peer Communication System"
+title: "WebRTC Peer-to-Peer Communication Platform"
 layout: post
 date: 2024-03-22 00:00
 tag: 
