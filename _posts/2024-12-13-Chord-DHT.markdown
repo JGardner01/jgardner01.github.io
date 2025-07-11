@@ -4,9 +4,12 @@ layout: post
 date: 2024-12-13 00:00
 tag:
 - java
+- rmi
 - javarmi
 - rest
 - chord dht
+- passive replication
+- distributed systems
 image: null
 headerImage: false
 projects: true
