@@ -18,7 +18,7 @@ dark-theme: false
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: assets/JAMES_GARDNER_CV.pdf
+resume-url: assets\James_Gardner_CV.pdf
 
 url: https://jgardner01.github.io/
 # your url: https://USERNAME.github.io
