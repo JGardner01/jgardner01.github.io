@@ -21,7 +21,8 @@ externalLink: false
 The File Organiser is a JavaFX based utility application designed to help users automate the organisation of files within their chosen directories. It provides an efficient and customisable way to sort files based on file types or creation data, reducing manual work and helping users maintain a clean, organised file system. This tool is particularly useful for individuals dealing with large volumes of files. By automatically sorting files into predefined categories based on file type or date, File Organiser saves time and effort, making it easy to manage and maintain an organised file structure with minimal user intervention.
 
 ## Source Code
-GitHub Repository: https://github.com/JGardner01/FileOrganiser
+GitHub Repository: <a href="https://github.com/JGardner01/FileOrganiser" target="_blank">github.com/JGardner01/FileOrganiser</a>
+
 
 ## Demo
 <p align="center">
