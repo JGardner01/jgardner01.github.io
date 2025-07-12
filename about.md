@@ -45,22 +45,6 @@ research, utilising Python, containers and cloud deployment technologies.
 - Utilised Docker, Kubernetes, FluxCD, Terraform and GitOps workflows to manage and automate deployments.
 - Utilised Microsoft’s Azure cloud services for hosting the services and fulfilling the hardware needs.
 
-
-#### Personal Projects
-- **File Organiser** <a href="/File-Organiser/">[View Project]</a>
-  - Developed a file organisation application that sorts files into predefined categories based on file type or date.
-  - Implemented automation management and system tray integration enabling the application to continue organising in the background.
-  - Enabled users to define and manage custom file extensions to sort beyond the predefined file extensions.
-- **URL Shortener** <a href="/URL-Shortener/">[View Project]</a>
-  -	Designed and implemented a full stack URL shortening application using Flask for the backend and MongoDB for database management.
-  - Added custom features such as short URL link customisation, passwords, expiration dates and QR code generation.
-  - Integrated a user friendly dashboard for URL management and monitoring via sessions and user accounts.
-  - Utilised Google Safe Browsing API to enhance security by checking URLs against Google’s database.
-- **Ludo** <a href="/Ludo-Game/">[View Project]</a>
-  - Created a 3D digital implementation of the classic board game Ludo with computer controlled opponents.
-  - Implemented a rule-based propriety system for computer controlled opponent moves.
-
-
 #### Virtual Internships
 - **JP Morgan Chase & Co:** Software Engineering Lite <a href="/assets/virtualInternships/JPMorganChaseLite.pdf" target="_blank">[View Certificate]</a>
   - Completed a simulation focused on the process of completing an engineering ticket for a system in the credit-card rewards department of JPMorgan Chase & Co.
@@ -71,19 +55,10 @@ research, utilising Python, containers and cloud deployment technologies.
   - Used command line Python to test whether Verizon’s VPN met the cloud-native traits, i.e. redundancy, resiliency and least-privilege.
   - Researched approaches to achieve application security and communicated insights in a PowerPoint Presentation.
 
-
-## Additional Work Experience
-#### Tesco Northampton South Extra, Store Assistant (November 2020 - Present)
-As a store assistant, I primarily work in the beers, wines and spirits department, with additional responsibilities in the grocery department when needed. This role has strongly enhanced my teamwork and communication skills, as I frequently work alongside colleagues and engage with numerous customers daily. I have also developed strong time management skills and the ability to work effectively under pressure, particularly during busy periods of the year, where I am given additional tasks such as setting up displays and promotional ends while also maintaining the appearance and stock levels of the aisles that I am responsible for. This has greatly improved my ability to prioritise and manage tasks efficiently.
-
-#### Ayres & Gardner, Construction Labourer (April 2024 - October 2024)
-Assisted in various construction tasks including site preparation, material handling and supporting skilled workers on site.
-
-
 ## Interests and Achievements
-- I enjoy staying active by going to the gym regularly and taking part in the Lancaster University boxing society.
-- I love travelling, exploring new destinations and learning about different cultures.
-- I was awarded Best Student in the year for ICT during Sixth Form.
-- I have won first place in photography at the local village show.
-- I have volunteered at local events such as the annual village produce show and charity coffee mornings, helping set up equipment, organise activities and assisting with meals.
-- I have a full driving license with a clean record
+- Enjoy staying active by strength training regularly and took part in the Lancaster University boxing society.
+- Passionate about travelling, exploring new destinations and learning about different cultures.
+- Awarded Best Student in the year for ICT during Sixth Form.
+- Won first place in photography at the local village show.
+- Volunteered at local events such as the annual village produce show and charity coffee mornings - helping set up equipment, organise activities and assisting with meals.
+- Full driving license with a clean record.
