@@ -11,7 +11,7 @@ Hello, I’m James Gardner, a driven final-year MSci Computer Science student at
 - **Email:** <a href="jamesgardner01@outlook.com" target="_blank">jamesgardner01@outlook.com</a>
 - **LinkedIn:** <a href="https://www.linkedin.com/in/james-m-gardner/" target="_blank">linkedin.com/in/james-m-gardner/</a>
 - **GitHub:** <a href="https://github.com/JGardner01" target="_blank">github.com/JGardner01</a>
-- **CV:** <a href="assets\James_Gardner_CV.pdf" target="_blank">Open Here</a>
+- **CV:** <a href="assets/James_Gardner_CV.pdf" target="_blank">Open Here</a>
 
 ## Skills
 - **Languages:** Java, Python, C#, C, HTML, CSS, JavaScript
