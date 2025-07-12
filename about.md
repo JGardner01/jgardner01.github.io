@@ -5,7 +5,7 @@ layout: page
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 <br>
 ## About Me
-Hello, I’m James Gardner, a driven final-year MSci Computer Science student at Lancaster University, a top 10 ranked institution in the UK. Set to graduate in the summer of 2025 with a minimum expected high upper second class honours (2:1) degree, my passion for software engineering has led me to develop strong foundations across various languages such as Java, Python, C# and JavaScript. Aspiring for a career as a software engineer, I am dedicated, punctual and detail oriented, always striving to deliver high quality work.
+Hello, I’m James Gardner, a Computer Science graduate from Lancaster University, where I earned a First Class Honours MSci Honours degree in Computer Science. I have strong foundations in a variety of languages such as Java, Python, C#, and JavaScript and I’m passionate about building practical, user-focused software. With experience across full-stack development, distributed systems, and cloud infrastructure, I’m a dedicated, detail-oriented software engineer eager to contribute to impactful, forward-thinking projects.
 
 ## Contact Information
 - **Email:** <a href="jamesgardner01@outlook.com" target="_blank">jamesgardner01@outlook.com</a>
