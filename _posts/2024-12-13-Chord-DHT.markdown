@@ -31,15 +31,15 @@ This project is a distributed system designed to receive and process computation
 
 ## System Components
 
-### REST
+#### REST
 
 The custom REST server serves as the main user-facing component, acting as an interface between the user’s web browser and the Chord DHT. The server handles HTTP GET and POST requests, mapping them to functions that communicate with Chord nodes via Java RMI. It allows users to submit, view all submitted tasks along with their types and processing statuses and then once executed retrieve results once tasks are completed.
 
-### Java RMI
+#### Java RMI
 
 RMI enables communication between the REST server and the Chord nodes, as well as among the nodes themselves within the ring. It allows remote method invocation across hosts which enables the system to operate as a distributed system. RMI is also used for node discovery, task forwarding and maintaining the dynamic topology of the Chord ring. 
 
-### Chord Node Based Distributed Hash Table
+#### Chord Node Based Distributed Hash Table
 
 The Chord DHT provides a decentralised and efficient mechanism for storing and managing tasks across multiple nodes. Tasks are assigned to nodes based on a consistent hashing algorithm applied to the task name, ensuring balanced distribution. Each node in the ring is responsible for storing and processing the tasks mapped to its key space. 
 
