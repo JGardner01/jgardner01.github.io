@@ -22,6 +22,13 @@ externalLink: false
 ## Overview
 This project is a distributed system designed to receive and process computational tasks across a Chord-based Distributed Hash Table (DHT). The aim was to develop a scalable and fault-tolerant solution capable of receiving, distributing and asynchronously processing tasks across multiple nodes in a Chord-based DHT with support for result retrieval. Built using Java, it integrates three main technologies: a custom REST server for user interaction, Java RMI for distributed remote communication and a Chord DHT to provide a decentralised, efficient task management system.
 
+## Useful Links About Chord
+-  [Chord Protocol – Wikipedia](https://en.wikipedia.org/wiki/Chord_%28peer-to-peer%29)  
+  A general overview of the Chord distributed lookup protocol.
+
+- [Chord: A Scalable Peer-to-Peer Lookup Service for Internet Applications (SIGCOMM 2001)](https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf)  
+  The original MIT research paper describing the Chord protocol in detail.
+
 ## System Components
 
 ### REST
@@ -51,3 +58,6 @@ To improve fault tolerance, passive replication is implemented: when a task is s
 <p align="center">
     To be recorded
 </p>
+
+## Conclusion
+This project successfully demonstrates the design and implementation of a distributed computational task management system using Java RMI, a custom REST interface, and a Chord-based Distributed Hash Table. By leveraging consistent hashing, passive replication, and asynchronous task execution, the system achieves fault tolerance, scalability, and decentralised operation. Tasks can be submitted, routed, processed, and retrieved efficiently across multiple nodes even in the presence of node failures. This project deepened my understanding of distributed systems principles.
