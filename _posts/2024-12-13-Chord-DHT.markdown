@@ -38,6 +38,14 @@ The Chord DHT provides a decentralised and efficient mechanism for storing and m
 
 To improve fault tolerance, passive replication is implemented: when a task is stored on a node, a replica is also stored on its immediate successor which allows the system to recover tasks in the event of a node failure. Implementing the Chord protocol, nodes maintain the ring topology dynamically by updating their finger tables and successor/predecessor links to handle node joins, intended shutdowns or failures which ensures scalability and fault tolerance.
 
+## System Workflow
+1.	**Task Submission:** The user submits a task via the REST interface. The REST server locates a Chord node and verifies that it is active/alive by querying the RMI registry.
+2.	**Task Distribution via Hashing:** The selected node hashes the task name and uses a `findSuccessor()` function to route the task to the appropriate node in the ring.
+3.	**Asynchronous Execution:** The node spawns a new thread to handle task execution without blocking the system. Task results are then stored locally on the node.
+4.	**Passive Replication:** A replica of the task is stored on the node’s immediate successor to improve fault tolerance in case the original node fails or becomes unavailable.
+5.	**Task Listing and Result Retrieval:** Users can list all submitted tasks and their processing statuses via the REST server; this involves collecting data from each node in the Chord ring and returning the completed list. Clicking on a completed task retrieves and displays its results from the relevant Chord node in XML format. If the primary node is unavailable, the system uses the replica to retrieve the result.
+
+
 
 ## Demo
 <p align="center">
