@@ -29,6 +29,16 @@ This project is a distributed system designed to receive and process computation
 - [Chord: A Scalable Peer-to-Peer Lookup Service for Internet Applications (SIGCOMM 2001)](https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf)  
   The original MIT research paper describing the Chord protocol in detail.
 
+## Disclaimer
+This project focused primarily on the system's backend functionality—including distributed communication, fault tolerance, and RESTful interaction. As a result, the user interface is intentionally minimal and the included tasks are basic intended to demonstrate system functionality. Both the UI and task complexity can be easily extended in future iterations.
+
+## Demo
+<p align="center">
+  <iframe width="854" height="480" src="https://www.youtube.com/embed/ckVsyTc_bjo?si=0hzghBTjqL77ND4_"
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+  </iframe>
+</p>
+
 ## System Components
 
 #### REST
@@ -51,13 +61,6 @@ To improve fault tolerance, passive replication is implemented: when a task is s
 3.	**Asynchronous Execution:** The node spawns a new thread to handle task execution without blocking the system. Task results are then stored locally on the node.
 4.	**Passive Replication:** A replica of the task is stored on the node’s immediate successor to improve fault tolerance in case the original node fails or becomes unavailable.
 5.	**Task Listing and Result Retrieval:** Users can list all submitted tasks and their processing statuses via the REST server; this involves collecting data from each node in the Chord ring and returning the completed list. Clicking on a completed task retrieves and displays its results from the relevant Chord node in XML format. If the primary node is unavailable, the system uses the replica to retrieve the result.
-
-
-
-## Demo
-<p align="center">
-    To be recorded
-</p>
 
 ## Conclusion
 This project successfully demonstrates the design and implementation of a distributed computational task management system using Java RMI, a custom REST interface, and a Chord-based Distributed Hash Table. By leveraging consistent hashing, passive replication, and asynchronous task execution, the system achieves fault tolerance, scalability, and decentralised operation. Tasks can be submitted, routed, processed, and retrieved efficiently across multiple nodes even in the presence of node failures. This project deepened my understanding of distributed systems principles.
