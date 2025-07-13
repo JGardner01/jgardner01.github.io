@@ -20,7 +20,24 @@ author: James Gardner
 externalLink: false
 ---
 ## Overview
-To be written.
+This project is a distributed system designed to receive and process computational tasks across a Chord-based Distributed Hash Table (DHT). The aim was to develop a scalable and fault-tolerant solution capable of receiving, distributing and asynchronously processing tasks across multiple nodes in a Chord-based DHT with support for result retrieval. Built using Java, it integrates three main technologies: a custom REST server for user interaction, Java RMI for distributed remote communication and a Chord DHT to provide a decentralised, efficient task management system.
+
+## System Components
+
+### REST
+
+The custom REST server serves as the main user-facing component, acting as an interface between the user’s web browser and the Chord DHT. The server handles HTTP GET and POST requests, mapping them to functions that communicate with Chord nodes via Java RMI. It allows users to submit, view all submitted tasks along with their types and processing statuses and then once executed retrieve results once tasks are completed.
+
+### Java RMI
+
+RMI enables communication between the REST server and the Chord nodes, as well as among the nodes themselves within the ring. It allows remote method invocation across hosts which enables the system to operate as a distributed system. RMI is also used for node discovery, task forwarding and maintaining the dynamic topology of the Chord ring. 
+
+### Chord Node Based Distributed Hash Table
+
+The Chord DHT provides a decentralised and efficient mechanism for storing and managing tasks across multiple nodes. Tasks are assigned to nodes based on a consistent hashing algorithm applied to the task name, ensuring balanced distribution. Each node in the ring is responsible for storing and processing the tasks mapped to its key space. 
+
+To improve fault tolerance, passive replication is implemented: when a task is stored on a node, a replica is also stored on its immediate successor which allows the system to recover tasks in the event of a node failure. Implementing the Chord protocol, nodes maintain the ring topology dynamically by updating their finger tables and successor/predecessor links to handle node joins, intended shutdowns or failures which ensures scalability and fault tolerance.
+
 
 ## Demo
 <p align="center">
